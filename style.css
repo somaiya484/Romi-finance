@@ -52,7 +52,7 @@ button {
     gap: 30px;
     margin-top: 50px;
     padding-bottom: 70px;
-    border-bottom: 1px solid  hsla(0, 0%, 100%, 0.089) ;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.089);
 }
 
 .latest-info {
@@ -90,7 +90,7 @@ button {
 }
 
 /* token */
-.token-section{
+.token-section {
     display: flex;
     gap: 15px;
     align-items: center;
@@ -138,4 +138,66 @@ button {
 .token-button {
     display: flex;
     gap: 15px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+}
+
+.logoimg {
+    width: 60px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo p {
+    margin-top: 25px;
+    font-size: 25px;
+    margin-left: -15px;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.footerLogo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.footerLogo1 p {
+    font-size: 13px;
+}
+
+.footerLogo img {
+    width: 32px;
+}
+
+/* dashboard */
+.state {
+    display: flex;
+    align-items: center;
+}
+
+.state-text {
+    font-size: 15px;
+    color: rgb(150, 149, 149);
+    margin-bottom: 30px;
+    line-height: 24px;
+    margin-top: -20px;
 }
