@@ -10,19 +10,36 @@ h1 {
     margin-top: 70px;
 }
 
+h2 {
+    font-size: 40px;
+    /* margin-top: 70px; */
+}
+
 p {
-    font-size: 15px;
+    font-size: 17px;
     color: rgb(210, 208, 208);
     margin-bottom: 30px;
+    line-height: 24px;
 }
 
 button {
     background: #3eb489;
     color: #fff;
     border-radius: 4px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     border: none;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
     padding: 8px 10px;
     text-align: center;
 }
@@ -32,21 +49,20 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding-bottom: 100px;
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.217);
+    gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid  hsla(0, 0%, 100%, 0.089) ;
 }
 
 .latest-info {
-    /* border: 1px solid hsla(0, 3%, 20%, 0.856); */
     box-shadow: 0 0.7rem 0.8rem rgba(0, 0, 0, .2);
     border: 1px solid hsla(0, 0%, 100%, .0784313725490196);
-    padding: 10px 5px;
+    padding: 17px 5px;
     display: flex;
     gap: 20px;
     align-items: center;
     width: 100%;
-    /* box-shadow: 0 0.7rem 0.8rem rgba(0,0,0,.2); */
 }
 
 .infos {
@@ -63,4 +79,63 @@ button {
     font-size: 30px;
     color: white;
     margin-top: -1px;
+}
+
+/* benefits */
+.benefits {
+    font-size: 20px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+
+/* token */
+.token-section{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 70px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.224);
+}
+
+.token-card {
+    border: 1px solid rgba(128, 128, 128, 0.402);
+    border-radius: 7px;
+    padding: 0px 0px 20px 20px;
+    width: 100%;
+}
+
+.token-card h4 {
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.token-card span {
+    font-size: 15px;
+    color: rgb(210, 208, 208);
+    margin-bottom: 15px;
+    line-height: 24px;
+    display: block;
+}
+
+.token {
+    display: flex;
+    align-items: center;
+}
+
+.token img {
+    width: 45px;
+}
+
+.token p {
+    color: white;
+    font-size: 25px;
+}
+
+.token-button {
+    display: flex;
+    gap: 15px;
 }
