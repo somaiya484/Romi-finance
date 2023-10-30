@@ -46,12 +46,10 @@ margin: auto;">
             </div>
         </nav>
     </header>
-    <header>
-        <div class="state">
-            <h2>Earn</h2>
-        </div>
-        <p class="state-text">Stake $ZOMI and $ZLP to earn rewards.</p>
-    </header>
+    <div class="state">
+        <h2>Earn</h2>
+    </div>
+    <p class="state-text">Stake $ROMI and $ZLP to earn rewards.</p>
 
     <div class="total-state">
         <div class="state-box1">
@@ -59,49 +57,69 @@ margin: auto;">
             <div style="border-bottom: 1px solid rgba(128, 128, 128, 0.452);">
                 <div class="states-amount">
                     <span class="span1">Price</span>
-                    <span class="spna2">$0.00</span>
+                    <span class="spna2"></span>
+                    <div class="tooltip">$0.00
+                        <span class="tooltiptext">Price on Avalanche:$...
+                        </span>
+                    </div>
                 </div>
                 <div class="states-amount">
                     <span class="span1">Wallet</span>
-                    <span class="spna2">... $ZOMI ($...)</span>
+                    <span class="spna2">... $ROMI ($...)</span>
                 </div>
                 <div class="states-amount">
                     <span class="span1">Staked</span>
-                    <span class="spna2">... $ZOMI ($...)</span>
+                    <span class="spna2">... $ROMI ($...)</span>
                 </div>
             </div>
 
             <div style="border-bottom: 1px solid rgba(128, 128, 128, 0.452); margin-top: 15px;">
                 <div class="states-amount">
                     <span class="span1">APR</span>
-                    <span class="spna2">...%</span>
+                    <div class="tooltip">%
+                        <span class="tooltiptext"> Escrowed $ZOMI APR: ...% <br> ETH APR: ...%
+                            <br><br>
+                            APRs are updated weekly on Wednesday and will depend on the fees collected for the week.
+                        </span>
+                    </div>
+
                 </div>
                 <div class="states-amount">
                     <span class="span1">Rewards</span>
-                    <span class="spna2">$...</span>
-                </div>
+                    <div class="tooltip">$...
+                        <span class="tooltiptext">   ETH (WETH): ... ($...) <br> Escrowed $ZOMI: ... ($...)
+                        </span>
+                    </div>                </div>
                 <div class="states-amount">
                     <span class="span1">Multiplier Points APR</span>
-                    <span class="spna2">100.00%</span>
+                    <div class="tooltip">100.00%
+                        <span class="tooltiptext">Boost your rewards with Multiplier Points. More info.
+
+                        </span>
+                    </div>
                 </div>
                 <div class="states-amount">
                     <span class="span1">Boost Percentage</span>
-                    <span class="spna2">...%</span>
+                    <div class="tooltip">%
+                        <span class="tooltiptext"> Escrowed $ZOMI APR: ...% <br> ETH APR: ...%
+                            <br><br>
+                            APRs are updated weekly on Wednesday and will depend on the fees collected for the week.
+                        </span>
+                    </div>
                 </div>
             </div>
 
             <div style="border-bottom: 2px solid rgba(128, 128, 128, 0.452);  margin-top: 15px;">
                 <div class="states-amount">
                     <span class="span1">Total Staked</span>
-                    <span class="spna2">0 $ZOMI ($...)</span>
+                    <span class="spna2">0 $ROMI ($...)</span>
                 </div>
                 <div class="states-amount">
                     <span class="span1">Total Supply</span>
-                    <span class="spna2">10,000 $ZOMI ($10)</span>
+                    <span class="spna2">10,000 $ROMI ($10)</span>
                 </div>
             </div>
-
-            <button style="margin:20px 10px;">Buy $ROMI</button>
+            <a href="http://127.0.0.1:5500/html/buy.html"> <button style="margin:20px 10px;">Buy $ROMI</button></a>
 
         </div>
 
@@ -112,11 +130,11 @@ margin: auto;">
                 <span class="spna2">... ($...)</span>
             </div>
             <div class="states-amount">
-                <span class="span1">$ZOMI</span>
+                <span class="span1">$ROMI</span>
                 <span class="spna2">... ($...)</span>
             </div>
             <div class="states-amount">
-                <span class="span1">Escrowed $ZOMI</span>
+                <span class="span1">Escrowed $ROMI</span>
                 <span class="spna2">... ($...)</span>
             </div>
             <div class="states-amount">
@@ -176,11 +194,19 @@ margin: auto;">
             <div style="border-bottom: 1px solid rgba(128, 128, 128, 0.452); margin-top: 15px;">
                 <div class="states-amount">
                     <span class="span1">APR</span>
-                    <span class="spna2">...%</span>
+                    <div class="tooltip">%
+                        <span class="tooltiptext"> Escrowed $ZOMI APR: ...% <br> ETH APR: ...%
+                            <br><br>
+                            APRs are updated weekly on Wednesday and will depend on the fees collected for the week.
+                        </span>
+                    </div>
                 </div>
                 <div class="states-amount">
                     <span class="span1">Rewards</span>
-                    <span class="spna2">$...</span>
+                    <div class="tooltip">$...
+                        <span class="tooltiptext">   ETH (WETH): ... ($...) <br> Escrowed $ZOMI: ... ($...)
+                        </span>
+                    </div>
                 </div>
             </div>
 
@@ -200,7 +226,7 @@ margin: auto;">
         </div>
 
         <div class="state-box1">
-            <p>Escrowed $ZOMI</p>
+            <p>Escrowed $ROMI</p>
             <div style="border-bottom: 1px solid rgba(128, 128, 128, 0.452);">
                 <div class="states-amount">
                     <span class="span1">Price</span>
@@ -208,18 +234,23 @@ margin: auto;">
                 </div>
                 <div class="states-amount">
                     <span class="span1">Wallet</span>
-                    <span class="spna2">... esZOMI ($...)</span>
+                    <span class="spna2">... esROMI ($...)</span>
                 </div>
                 <div class="states-amount">
                     <span class="span1">Staked</span>
-                    <span class="spna2">... esZOMI ($...)</span>
+                    <span class="spna2">... esROMI ($...)</span>
                 </div>
             </div>
 
             <div style="border-bottom: 1px solid rgba(128, 128, 128, 0.452); margin-top: 15px;">
                 <div class="states-amount">
                     <span class="span1">APR</span>
-                    <span class="spna2">...%</span>
+                    <div class="tooltip">%
+                        <span class="tooltiptext"> Escrowed $ZOMI APR: ...% <br> ETH APR: ...%
+                            <br><br>
+                            APRs are updated weekly on Wednesday and will depend on the fees collected for the week.
+                        </span>
+                    </div>
                 </div>
                 <div class="states-amount">
                     <span class="span1">Multiplier Points APR</span>
@@ -230,11 +261,11 @@ margin: auto;">
             <div style="border-bottom: 2px solid rgba(128, 128, 128, 0.452);  margin-top: 15px;">
                 <div class="states-amount">
                     <span class="span1">Total Staked</span>
-                    <span class="spna2">... esZOMI ($...)</span>
+                    <span class="spna2">... esROMI ($...)</span>
                 </div>
                 <div class="states-amount">
                     <span class="span1">Total Supply</span>
-                    <span class="spna2">1,023,379 esZOMI ($1,051)</span>
+                    <span class="spna2">1,023,379 esROMI ($1,051)</span>
                 </div>
             </div>
 
@@ -247,14 +278,14 @@ margin: auto;">
     <div class="state">
         <h2>Vest</h2>
     </div>
-    <p class="state-text">Convert esZOMI tokens to $ZOMI tokens. <br>
+    <p class="state-text">Convert esROMI tokens to $ROMI tokens. <br>
         Please read the vesting details before using the vaults.
     </p>
 
     <div class="tableBottom">
         <div class="total-state">
             <div class="state-box1">
-                <p>$ZOMI Vault</p>
+                <p>$ROMI Vault</p>
                 <div style="border-bottom: 1px solid rgba(128, 128, 128, 0.452)">
                     <div class="states-amount">
                         <span class="span1">Staked Tokens</span>
@@ -270,14 +301,14 @@ margin: auto;">
                     </div>
                     <div class="states-amount">
                         <span class="span1">Claimable</span>
-                        <span class="spna2">0.0000 $ZOMI</span>
+                        <span class="spna2">0.0000 $ROMI</span>
                     </div>
                 </div>
                 <button style="margin:20px 10px;">Connect Wallet</button>
             </div>
 
             <div class="state-box1">
-                <p>$ZOMI Vault</p>
+                <p>$ROMI Vault</p>
                 <div style="border-bottom: 1px solid rgba(128, 128, 128, 0.452)">
                     <div class="states-amount">
                         <span class="span1">Staked Tokens</span>
@@ -293,7 +324,7 @@ margin: auto;">
                     </div>
                     <div class="states-amount">
                         <span class="span1">Claimable</span>
-                        <span class="spna2">0.0000 $ZOMI</span>
+                        <span class="spna2">0.0000 $ROMI</span>
                     </div>
                 </div>
                 <button style="margin:20px 10px;">Connect Wallet</button>

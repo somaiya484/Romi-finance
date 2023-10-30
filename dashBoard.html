@@ -45,13 +45,12 @@ margin: auto;">
             </div>
         </nav>
     </header>
-    <header>
-        <div class="state">
-            <h2>Stats</h2>
-            <img src="	https://zomi.finance/static/media/ic_avalanche_24.4f4088f4.svg" alt="">
-        </div>
-        <p class="state-text">Ethereum Total Stats start from 06 Jan 2022. <br> For detailed stats:</p>
-    </header>
+
+    <div class="state">
+        <h2>Stats</h2>
+        <img src="	https://zomi.finance/static/media/ic_avalanche_24.4f4088f4.svg" alt="">
+    </div>
+    <p class="state-text">Ethereum Total Stats start from 06 Jan 2022. <br> For detailed stats:</p>
 
     <!-- total states -->
     <div class="total-state">
@@ -59,34 +58,70 @@ margin: auto;">
             <p>Overview</p>
             <div class="states-amount">
                 <span class="span1">AUM</span>
-                <span class="spna2">$34</span>
+                <div class="tooltip">$34
+                    <span class="tooltiptext">Assets Under Management: $ZOMI staked (All chains) + $ZLP pool
+                        (Ethereum)
+                    </span>
+                </div>
             </div>
             <div class="states-amount">
                 <span class="span1">$ZLP Pool</span>
-                <span class="spna2">$34</span>
+                <div class="tooltip">$34
+                    <span class="tooltiptext">Total value of tokens in $ZLP pool (Ethereum)</span>
+                </div>
             </div>
             <div class="states-amount">
                 <span class="span1">24h Volume</span>
-                <span class="spna2">$0</span>
+                <div class="tooltip">$0
+                    <span class="tooltiptext"> {title} on Ethereum: $0 <br>
+                        <hr>
+                        Total:
+                        $0
+                    </span>
+                </div>
             </div>
             <div class="states-amount">
                 <span class="span1">Long Positions</span>
-                <span class="spna2">$0</span>
+                <div class="tooltip">$0
+                    <span class="tooltiptext"> {title} on Ethereum: $0 <br>
+                        <hr>
+                        Total:
+                        $0
+                    </span>
+                </div>
             </div>
             <div class="states-amount">
                 <span class="span1">Short Positions</span>
-                <span class="spna2">$0</span>
+                <div class="tooltip">$0
+                    <span class="tooltiptext"> {title} on Ethereum: $0 <br>
+                        <hr>
+                        Total:
+                        $0
+                    </span>
+                </div>
             </div>
         </div>
         <div class="state-box1">
             <p>Total Stats</p>
             <div class="states-amount">
                 <span class="span1">Total Fees</span>
-                <span class="spna2">$0</span>
+                <div class="tooltip">$0
+                    <span class="tooltiptext"> {title} on Ethereum: $0 <br>
+                        <hr>
+                        Total:
+                        $0
+                    </span>
+                </div>
             </div>
             <div class="states-amount">
                 <span class="span1">Total Volume</span>
-                <span class="spna2">$0</span>
+                <div class="tooltip">$0
+                    <span class="tooltiptext"> {title} on Ethereum: $0 <br>
+                        <hr>
+                        Total:
+                        $0
+                    </span>
+                </div>
             </div>
             <div class="states-amount">
                 <span class="span1">Floor Price Fund</span>
@@ -94,7 +129,13 @@ margin: auto;">
             </div>
             <div style="visibility: hidden ;" class="states-amount">
                 <span class="span1">Long Positions</span>
-                <span class="spna2">$0</span>
+                <div class="tooltip">$0
+                    <span class="tooltiptext"> {title} on Ethereum: $0 <br>
+                        <hr>
+                        Total:
+                        $0
+                    </span>
+                </div>
             </div>
             <div style="visibility: hidden ;" class="states-amount">
                 <span class="span1">Short Positions</span>
@@ -130,7 +171,13 @@ margin: auto;">
                 </div>
                 <div class="states-amount">
                     <span class="span1">Total Staked</span>
-                    <span class="spna2">$0</span>
+                    <div class="tooltip">$0
+                        <span class="tooltiptext"> {title} on Ethereum: $0 <br>
+                            <hr>
+                            Total:
+                            $0
+                        </span>
+                    </div>
                 </div>
                 <div class="states-amount">
                     <span class="span1">Market Cap</span>
@@ -270,7 +317,14 @@ margin: auto;">
                             </span>
                         </td>
                         <td>$1,787.69</td>
-                        <td>$19</td>
+                        <td>
+                            <div class="tooltip">$19
+                                <span class="tooltiptext"> Pool Amount: 0 ETH <br>
+                                    Target Min Amount:0 ETH <br>
+                                    Max ETH Capacity:$300,000
+                                </span>
+                            </div>
+                        </td>
                         <td style="text-align: center;padding-left: 55px">50.49% / 25.00%</td>
                         <td style="text-align: right; padding: 20px 10px">0.00%</td>
                     </tr>
@@ -281,7 +335,14 @@ margin: auto;">
                             </span>
                         </td>
                         <td>$34,137.22</td>
-                        <td>$0</td>
+                        <td>
+                            <div class="tooltip">$0
+                                <span class="tooltiptext"> Pool Amount: 0 WBTC <br>
+                                    Target Min Amount: 0 WBTC <br>
+                                    Max WBTC Capacity: $300,000
+                                </span>
+                            </div>
+                        </td>
                         <td style="text-align: center; padding-left: 55px;">0.00% / 25.00%</td>
                         <td style="text-align: right; padding: 20px 10px">0.00%</td>
                     </tr>
@@ -291,7 +352,14 @@ margin: auto;">
                             </span>
                         </td>
                         <td>$1.37</td>
-                        <td>$0</td>
+                        <td>
+                            <div class="tooltip">$0
+                                <span class="tooltiptext"> Pool Amount: 0 WBTC <br>
+                                    Target Min Amount: 0 WBTC <br>
+                                    Max WBTC Capacity: $300,000
+                                </span>
+                            </div>
+                        </td>
                         <td style="text-align: center;padding-left: 55px;">0.00% / 25.00%</td>
                         <td style="text-align: right; padding: 20px 10px">0.00%</td>
                     </tr>
@@ -302,7 +370,14 @@ margin: auto;">
                             </span>
                         </td>
                         <td>$1.00</td>
-                        <td>$14</td>
+                        <td>
+                            <div class="tooltip">$0
+                                <span class="tooltiptext"> Pool Amount: 14 USDC <br>
+                                    Target Min Amount: 0 USDC <br>
+                                    Max WBTC Capacity: $300,000
+                                </span>
+                            </div>
+                        </td>
                         <td style="text-align: center; padding-left: 55px;">49.50% / 25.00% </td>
                         <td style="text-align: right; padding: 20px 10px">0.00%</td>
                     </tr>

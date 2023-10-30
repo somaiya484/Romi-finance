@@ -87,15 +87,17 @@ header nav {
 
 header nav a {
     font-size: 17px;
+    color: #eee;
     font-weight: 500;
     margin: 0 0.5rem;
     background-color: none;
 }
-.navRight{
+
+.navRight {
     display: flex;
     justify-content: center;
-    align-items: center; 
-    gap: 10px;   
+    align-items: center;
+    gap: 10px;
 }
 
 header .btn {
@@ -103,47 +105,6 @@ header .btn {
     cursor: pointer;
     display: none;
 }
-
-/* 
-@media (max-width:990px) {}
-
-@media (max-width: 768px) {
-    header .btn {
-        display: block;
-    }
-
-    header nav {
-        position: fixed;
-        flex-direction: column;
-        min-width: 300px;
-        height: 100vh;
-        background-color: #2c3e50;
-        top: 0;
-        right: -100%;
-        align-items: flex-start;
-        padding-top: 20px;
-    }
-
-    header nav .active2 {
-        right: 0;
-    }
-
-    header nav .close-btn {
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin: 25px;
-    }
-
-    header nav a {
-        padding: 8px 0px;
-        background-color: transparent;
-        display: block;
-        font-size: 20px;
-        margin: 0.5rem 15px;
-    }
-
-} */
 
 /* latest-info */
 .secons-secion {
@@ -319,10 +280,33 @@ footer {
 .span2 {
     font-size: 15px;
     color: #fff;
+    cursor: pointer;
     margin-bottom: 15px;
     line-height: 24px;
-    border-bottom: 2px solid white;
-    border-style: dashed;
+    cursor: pointer;
+    text-decoration: dashed;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 .span1 {
@@ -337,7 +321,6 @@ footer {
     border: 1px solid rgba(128, 128, 128, 0.452);
     border-radius: 4px;
     width: 100%;
-    background-color: #151515;
 }
 
 .state-box1 p {
